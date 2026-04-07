@@ -1,0 +1,39 @@
+/* Подключение шрифта Politburo */
+@font-face {
+  font-family: "Politburo";
+  src: url("../fonts/Politburo.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(202, 202, 202);
+  overflow-x: hidden;
+}
+
+/* Настройки ссылок */
+a {
+  color: black;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  margin: 15px 0 0 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+a:visited {
+  color: rgb(85, 85, 85);
+}
+
+a:active {
+  color: rgb(255, 255, 255);
+}

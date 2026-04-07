@@ -1,0 +1,35 @@
+/* Элементы, принадлежащие header */
+.header-title {
+  color: white;
+  font-family: "Politburo", sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  margin: 10px 0 0 20px;
+}
+
+.header-name {
+  color: aliceblue;
+  font-family: "Segoe UI";
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header-profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-photo {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 90px;
+  margin: 0 10px 0 0;
+}
+
+.header-photo:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}

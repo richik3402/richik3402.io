@@ -1,0 +1,33 @@
+/* Блоки, расположенные в main */
+.personal-data {
+  background-color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.grid > div {
+  min-height: 150px;
+}
+
+.skills {
+  background-color: black;
+}
+
+.projects {
+  background-color: rgb(95, 95, 95);
+}
+
+.contacts {
+  background-color: rgb(155, 155, 155);
+}
+
+.design {
+  background-image: url("../assets/simple-abstract-seamlees-vector-pattern_733980-1565.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+}
